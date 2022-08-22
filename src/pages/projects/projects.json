@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "name": "Aplikasi Lapangan Futsal",
+    "image": "./assets/images/project-list/aplikasi-desktop-penyewaanlapanganfutsal.png",
+    "imageAlt": "Gambar Aplikasi Penyewaan Lapangan Futsal",
+    "type": "fas fa-fw fa-desktop",
+    "subtitle": "",
+    "description": "",
+    "link": "#"
+  },
+  {
+    "id": "2",
+    "name": "Product Recommendation Module",
+    "image": "./assets/images/project-list/simple-product-recommendation.png",
+    "imageAlt": "",
+    "type": "fas fa-fw fa-globe-asia",
+    "subtitle": "",
+    "description": "",
+    "link": "#"
+  },
+  {
+    "id": "3",
+    "name": "Tokosoftware",
+    "image": "./assets/images/project-list/aplikasi-jual-software.png",
+    "imageAlt": "Gambar Aplikasi Web Penjualan Software",
+    "type": "",
+    "subtitle": "",
+    "description": "",
+    "link": "#"
+  },
+  {
+    "id": "4",
+    "name": "App Surat Penjualan",
+    "image": "./assets/images/project-list/aplikasi-surat-penjualan-dinamis.png",
+    "imageAlt": "Gambar Aplikasi Penjualan VB.NET",
+    "type": "fas fa-fw fa-desktop",
+    "subtitle": "",
+    "description": "",
+    "link": "#"
+  },
+  {
+    "id": "5",
+    "name": "Web Marketing Indihome",
+    "image": "./assets/images/project-list/web-promosi-indihome.png",
+    "imageAlt": "Gambar project Website Promosi Indihome daerah Bekasi",
+    "type": "fas fa-fw fa-globe-asia",
+    "subtitle": "",
+    "description": "",
+    "link": "https://indihomebekasipromo.com/"
+  },
+  {
+    "id": "6",
+    "name": "Akuradz Troli",
+    "image": "./assets/images/project-list/web-troli-akuradz.png",
+    "imageAlt": "Gambar project Website Promosi Indihome daerah Bekasi",
+    "type": "fas fa-fw fa-globe-asia",
+    "subtitle": "",
+    "description": "",
+    "link": "https://www.akuradz-troli.com/"
+  },
+  {
+    "id": "7",
+    "name": "CAT X Hilang",
+    "image": "./assets/images/project-list/catxhilang.png",
+    "imageAlt": "",
+    "type": "fas fa-fw fa-globe-asia",
+    "subtitle": "",
+    "description": "",
+    "link": "#"
+  }
+]
