@@ -5,6 +5,7 @@ import PageResources from "./pages/PageResources";
 import PageAchievment from "./pages/PageAchievment";
 import AchievmentDetail from "./pages/achievment/AchievmentDetail";
 import PageProjects from "./pages/PageProjects";
+import ProjectDetail from "./pages/projects/ProjectDetail";
 import React from "react";
 
 import {
@@ -161,7 +162,6 @@ function Layout() {
             <Menunya to="/resources" namaMenu="resources"><i className="fas fa-server"></i>Resources</Menunya>
             <Menunya to="/achievment" namaMenu="achievment"><i className="fas fa-trophy"></i>Achievment</Menunya>
             <Menunya to="/projects" namaMenu="projects"><i className="fas fa-project-diagram"></i>Projects</Menunya>
-            <Menunya to="/blog" namaMenu="blog"><i className="fas fa-newspaper"></i>Blog</Menunya>
           </div>
         </div>
       <div id="body">
@@ -183,6 +183,7 @@ function App() {
         <Route path="achievment" element={<PageAchievment/>}/>
         <Route path="achievment/:id" element={<AchievmentDetail/>} />
         <Route path="projects" element={<PageProjects/>}/>
+        <Route path="project/:id" element={<ProjectDetail/>} />
         <Route path="*" element={<NyasarState/>} />
       </Route>
     </Routes>

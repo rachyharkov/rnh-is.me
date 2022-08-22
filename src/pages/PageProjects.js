@@ -14,7 +14,7 @@ function PageProjects() {
                             <img alt={item.name} data-src={item.image} class="lazyload"/>
                         </div>
                         <div class="caption">
-                            <p><a class="link-href" type="project" image={item.img} page={'project' + item.id} id={item.id} href={'project?id=' + item.id}>{item.name}</a></p>
+                            <p><a class="link-href" type="project" image={item.img} page={'project' + item.id} id={item.id} href={'project/' + item.id}>{item.name}</a></p>
                         </div>
                     </div>
 

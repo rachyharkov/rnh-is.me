@@ -5,7 +5,7 @@ function PageAbout() {
         <div style={{textAlign: 'justify'}}>
             <section>
                 <h2>👋 Halo!</h2>
-                <p>Perkenalkan, nama saya Rachmad Nur Hayat. Saya senang teknologi 😎 terutama mengeksplor hal baru. <b>Web Development</b> adalah keahlian saya, dan Sekarang saya sedang belajar <b>Teknologi Cloud</b>.</p>
+                <p>Perkenalkan, nama saya Rachmad Nur Hayat. Saya senang teknologi 😎 terutama mengeksplor hal baru. <b>Web Development</b> adalah keahlian saya, dan Sekarang saya sedang tertarik dengan <b>Machine Learning</b>.</p>
 
                 <p>Untuk pendidikan formal, Alhamdulillah saya saat ini sedang menjadi mahasiswa dari salah satu <a href="https://binainsani.ac.id">universitas</a> di Bekasi 👨‍🎓, saya memiliki pekerjaan sampingan yaitu bekerja untuk kakak tingkat saya membantu mengerjakan aplikasi web 💻. Saya juga seorang kurir antar troli yang usahanya dijalankan oleh ayah saya dengan pengalaman jarak tempuh terjauh dari Bekasi hingga Bandung dengan menggunakan motor dan tentunya sendirian 🛵</p>
 
@@ -31,6 +31,8 @@ function PageAbout() {
                             <img alt="Bisa Codeigniter" src="https://img.shields.io/badge/-Codeigniter-EE4323?style=flat-square&logo=codeigniter&logoColor=white"/>
                             <img alt="Bisa MySQL" src="https://img.shields.io/badge/-MySQL-00618A?style=flat-square&logo=mysql&logoColor=white"/>
                             <img alt="Bisa SQL Server" src="https://img.shields.io/badge/-SQL Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white"/>
+                            <img alt="Bisa Python" src="https://img.shields.io/badge/-Python-00618A?style=flat-square&logo=python&logoColor=white"/>
+                            <img alt="Bisa Python" src="https://img.shields.io/badge/-Flask-00618A?style=flat-square&logo=flask&logoColor=white"/>
 
                         </div>
                     </li>
