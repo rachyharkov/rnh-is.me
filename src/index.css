@@ -263,7 +263,7 @@ a.nav-btn-active::after {
 .nav-wrapper a::after {
 	content: "";
 	position: absolute;
-	bottom: -.2em;
+	bottom: -.4em;
 	left: 0;
 	right: 0;
 	height: 3px;

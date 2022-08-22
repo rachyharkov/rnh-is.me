@@ -51,7 +51,7 @@ function PageAbout() {
                 </ul>
             </section>
             <section>
-                <a className="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer" href="./cv.pdf">Unduh CV</a>
+                <a className="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer" href="./cv_rachmad_nur_hayat.pdf">Unduh CV</a>
             </section>
 
         </div>
