@@ -22,74 +22,74 @@ import {
 } from "react-router-dom";
   
 function loadingState() {
-    return(
-      <div
+  return(
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        textAlign: "center",
+      }}
+    >
+      <svg
+        width="42"
+        height="42"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="xMidYMid"
         style={{
-          display: "flex",
-          flexDirection: "column",
-          textAlign: "center",
+          filter: "invert(1)",
+          margin: "auto",
+          color: "var()",
         }}
       >
-        <svg
-          width="42"
-          height="42"
-          viewBox="0 0 100 100"
-          preserveAspectRatio="xMidYMid"
+        <circle
+          cx="0"
+          cy="50"
+          r="10"
+          fill="#25282B"
+          className="anim-0-0-17"
           style={{
-            filter: "invert(1)",
-            margin: "auto",
-            color: "var()",
+            animationDelay: "0s",
+            animationDuration: "2.5s",
           }}
-        >
-          <circle
-            cx="0"
-            cy="50"
-            r="10"
-            fill="#25282B"
-            className="anim-0-0-17"
-            style={{
-              animationDelay: "0s",
-              animationDuration: "2.5s",
-            }}
-          ></circle>
-          <circle
-            cx="0"
-            cy="50"
-            r="10"
-            fill="#25282B"
-            className="anim-0-0-17"
-            style={{
-              animationDelay: "-0.625s",
-              animationDuration: "2.5s",
-            }}
-          ></circle>
-          <circle
-            cx="0"
-            cy="50"
-            r="10"
-            fill="#25282B"
-            className="anim-0-0-17"
-            style={{
-              animationDelay: "-1.25s",
-              animationDuration: "2.5s",
-            }}
-          ></circle>
-          <circle
-            cx="0"
-            cy="50"
-            r="10"
-            fill="#25282B"
-            className="anim-0-0-17"
-            style={{
-              animationDelay: "-1.875s",
-              animationDuration: "2.5s",
-            }}
-          ></circle>
-        </svg>
-        <p>🐢</p>
-      </div>
-    )
-  }
+        ></circle>
+        <circle
+          cx="0"
+          cy="50"
+          r="10"
+          fill="#25282B"
+          className="anim-0-0-17"
+          style={{
+            animationDelay: "-0.625s",
+            animationDuration: "2.5s",
+          }}
+        ></circle>
+        <circle
+          cx="0"
+          cy="50"
+          r="10"
+          fill="#25282B"
+          className="anim-0-0-17"
+          style={{
+            animationDelay: "-1.25s",
+            animationDuration: "2.5s",
+          }}
+        ></circle>
+        <circle
+          cx="0"
+          cy="50"
+          r="10"
+          fill="#25282B"
+          className="anim-0-0-17"
+          style={{
+            animationDelay: "-1.875s",
+            animationDuration: "2.5s",
+          }}
+        ></circle>
+      </svg>
+      <p>🐢</p>
+    </div>
+  )
+}
 
 function showMobileNav(){
   // addclass nav-m-active to #nav-mobile
@@ -129,10 +129,28 @@ function Menunya({children, to, ...props}) {
   )
 }
 
+const colorschemeone = ["#ff0844", "#4481eb", "#b721ff", "#434343"];
+const colorschemetwo = ["#ffb199", "#04befe", "#21d4fd", "#000000"];
+let scheme = 0
+
+function colorSchemeChange() {
+  scheme += 1
+  if (scheme > 3) {
+    scheme = 0
+  }
+
+  // $(":root").get(0).style.setProperty("--colorone", colorschemeone[scheme]) to javascript
+  document.documentElement.style.setProperty("--colorone", colorschemeone[scheme]);
+
+  // $(":root").get(0).style.setProperty("--colortwo", colorschemetwo[scheme]) to javascript
+  document.documentElement.style.setProperty("--colortwo", colorschemetwo[scheme]);
+
+}
+
 function Layout() {
   return (
     <div className="App">
-      <button id="btn-color-scheme-changer" className="x">
+      <button id="btn-color-scheme-changer" className="x" onClick={colorSchemeChange}>
         💫
       </button>
       <div>
